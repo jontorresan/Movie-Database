@@ -1,0 +1,15 @@
+<div class='background'>
+        <h1 class="title"><%=movie.title%>: Scroll down for more info!</h1>
+        <div class="card mb-5 mt-5 ml-5 mr-5">
+            <img class="card-img-top" src="https://image.tmdb.org/t/p/original/<%=movie.poster_path%>" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title"><%=movie.title%></h3>
+                <h5>Plot</h5>
+                    <p class="card-text"><%=movie.overview%></p>
+                <h5>Rating</h5>
+                    <p class="card-text"><%=movie.vote_average%>/10</p>
+                <h5>Released</h5>
+                    <p class="card-text"><%=movie.release_date%></p>
+            </div>
+        </div>
+    </div>

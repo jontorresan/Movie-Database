@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+}
+
+.card {
+  margin: 20px;
+}
+
+.background {
+  background-color: #2b2b2b;
+}
+
+.navbar {
+  color: white;
+}
+
+#cardId {
+  margin: 30px;
+}
+
+.poster-img {
+  margin: 20px;
+}
+
+.movie-info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 20px;
+}
+.movie-info h5 {
+  font-weight: bold;
+}
+
+body {
+  background-color: #2b2b2b;
+}
